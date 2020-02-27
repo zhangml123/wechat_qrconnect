@@ -8,6 +8,7 @@ export default {
     Sharing.addSource({
       id: 'renren',
       iconClass: 'fa-renren',
+      icon: "fab-renren",
       generateUrl: function(link, title) {
         return ("http://widget.renren.com/dialog/share?resourceUrl=" + encodeURIComponent(link) + "&title=" + encodeURIComponent(title) + "&description=" + encodeURIComponent(title));
       },
@@ -18,6 +19,7 @@ export default {
     Sharing.addSource({
       id: 'wechat',
       iconClass: 'fa-wechat',
+      icon: "fab-facebook-square",
       generateUrl: function(link) {
         return ("http://s.jiathis.com/qrcode.php?url=" + encodeURIComponent(link));
       },
