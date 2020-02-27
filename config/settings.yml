@@ -11,7 +11,7 @@ basic:
      - renern
      - wechat
 login:
-  wechat_qrconnect_client_id222:
+  wechat_qrconnect_client_id333:
     default: ''
   wechat_qrconnect_client_secret:
     default: ''
