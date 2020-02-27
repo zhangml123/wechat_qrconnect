@@ -1,5 +1,17 @@
+basic:
+  share_links:
+    client: true
+    type: list
+    default: 'twitter|facebook|email|renren|wechat'
+    allow_any: false
+    choices:
+     - twitter
+     - facebook
+     - email
+     - renern
+     - wechat
 login:
-  wechat_qrconnect_client_id111111:
+  wechat_qrconnect_client_id222:
     default: ''
   wechat_qrconnect_client_secret:
     default: ''
